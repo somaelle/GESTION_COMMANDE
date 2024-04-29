@@ -1,3 +1,4 @@
+// connexion a la base de donnees Tamwofing
 <?php 
 define("USER", "root");
 define("PASSWORD", "");
