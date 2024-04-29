@@ -1,0 +1,46 @@
+
+h1 {
+ 
+  color: #245a11;
+}
+
+form {
+  max-width: 700px;
+  margin: 0 auto;
+  background-color:rgb(21, 29, 123);
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+
+  margin-bottom: 8px;
+}
+
+input[type="text"],
+input[type="number"] {
+  width: calc(100% - 40px);
+  padding: 10px;
+  margin-bottom: 15px;
+}
+
+button[type="submit"],
+button[type="reset"] {
+  padding: 10px 40px;
+  background-color: rgb(255, 0, 0);
+  color: rgb(255, 255, 255);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover,
+button[type="reset"]:hover {
+    background-color: orangered;
+}
+
+
+.wrapper{
+  padding: 100px;
+}
